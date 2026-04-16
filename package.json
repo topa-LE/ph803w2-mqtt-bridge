@@ -1,0 +1,27 @@
+{
+  "name": "ph803w2-mqtt-bridge",
+  "version": "1.0.0",
+  "description": "Modern Docker MQTT Bridge for the PH-803W 2-in-1 pH/Redox Controller",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "ph803w2",
+    "ph803w",
+    "mqtt",
+    "home-assistant",
+    "docker",
+    "pool",
+    "ph",
+    "redox",
+    "orp"
+  ],
+  "author": "topa-LE",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mqtt": "^5.10.4"
+  }
+}

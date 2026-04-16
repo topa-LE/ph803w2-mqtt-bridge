@@ -1,0 +1,11 @@
+services:
+  ph803w2-mqtt-bridge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ph803w2-mqtt-bridge
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      TZ: Europe/Berlin
