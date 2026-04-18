@@ -1,9 +1,12 @@
+![License](https://img.shields.io/badge/license-MIT-brightgreen)
 ![Docker](https://img.shields.io/badge/Docker-ready-blue?logo=docker)
 ![Node.js](https://img.shields.io/badge/Node.js-24-green?logo=node.js)
 ![MQTT](https://img.shields.io/badge/MQTT-enabled-orange)
-![License](https://img.shields.io/badge/license-MIT-brightgreen)
 ![Status](https://img.shields.io/badge/status-active-success)
-
+![Version](https://img.shields.io/github/v/release/topa-LE/ph803w2-mqtt-bridge?sort=semver&style=flat-square)
+![Build](https://img.shields.io/github/actions/workflow/status/topa-LE/ph803w2-mqtt-bridge/docker-ghcr.yml?branch=main&style=flat-square)
+![Stars](https://img.shields.io/github/stars/topa-LE/ph803w2-mqtt-bridge?style=flat-square)
+![GHCR](https://img.shields.io/badge/GHCR-image-blue?style=flat-square&logo=github)
 
 # 🚀 PH803W2 MQTT Bridge
 
