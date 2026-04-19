@@ -3,11 +3,11 @@
 ![Node.js](https://img.shields.io/badge/Node.js-24-green?logo=node.js)
 ![MQTT](https://img.shields.io/badge/MQTT-enabled-orange)
 ![Status](https://img.shields.io/badge/status-active-success)
+
 ![Docker Version](https://img.shields.io/docker/v/topale707/ph803w2-mqtt-bridge?sort=semver&label=VERSION&style=for-the-badge)
 ![Docker Stars](https://img.shields.io/docker/stars/topale707/ph803w2-mqtt-bridge?label=DOCKER%20STARS&style=for-the-badge)
 [![PLATFORM](https://img.shields.io/badge/ARCH-amd64%20%7C%20arm64-blue?style=for-the-badge)]()
 ![Docker Pulls](https://img.shields.io/docker/pulls/topale707/ph803w2-mqtt-bridge?label=DOCKER%20PULLS&style=for-the-badge)
-![GHCR](https://img.shields.io/badge/GHCR-ghcr.io/topa--le/ph803w2--mqtt--bridge-blue?style=for-the-badge)
 ![Docker Hub](https://img.shields.io/badge/Docker%20Hub-topale707/ph803w2--mqtt--bridge-blue?style=for-the-badge)
 
 
