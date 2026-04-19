@@ -8,8 +8,6 @@
 ![Docker Stars](https://img.shields.io/docker/stars/topale707/ph803w2-mqtt-bridge?label=DOCKER%20STARS&style=for-the-badge)
 [![PLATFORM](https://img.shields.io/badge/ARCH-amd64%20%7C%20arm64-blue?style=for-the-badge)]()
 ![Docker Pulls](https://img.shields.io/docker/pulls/topale707/ph803w2-mqtt-bridge?label=DOCKER%20PULLS&style=for-the-badge)
-![Docker Hub](https://img.shields.io/badge/Docker%20Hub-topale707/ph803w2--mqtt--bridge-blue?style=for-the-badge)
-
 
 
 # 🚀 PH803W2 MQTT Bridge
