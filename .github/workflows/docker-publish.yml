@@ -53,9 +53,7 @@ jobs:
             ${{ env.IMAGE_NAME_DOCKERHUB }}
           tags: |
             type=raw,value=latest
-            type=ref,event=branch
-            type=ref,event=tag
-            type=sha
+            type=semver,pattern={{version}}
 
       - name: 🚀 Build und Push
         uses: docker/build-push-action@v6
