@@ -1,3 +1,10 @@
+require("dotenv").config();
+
+// 🔍 CONFIG VALIDATION
+const { validateEnv } = require("./validator");
+validateEnv();
+
+// 🔧 jetzt erst Config + Module laden
 const { config } = require("./config");
 const { Ph803wDevice } = require("./ph803w-device");
 const { MqttPublisher } = require("./mqtt-publisher");
