@@ -1,3 +1,4 @@
+const { berlinTimestamp } = require("./time");
 require("dotenv").config();
 
 // 🔍 CONFIG VALIDATION
@@ -20,7 +21,7 @@ function createLogger(level) {
       return;
     }
 
-    const ts = new Date().toISOString();
+    const ts = berlinTimestamp();
 
     if (meta !== null) {
       console.log(`[${ts}] [${targetLevel.toUpperCase()}] ${message}`, meta);

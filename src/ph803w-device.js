@@ -1,3 +1,4 @@
+const { berlinTimestamp } = require("./time");
 const net = require("net");
 const EventEmitter = require("events");
 
@@ -323,7 +324,7 @@ class Ph803wDevice extends EventEmitter {
         flags1Binary: flags1.toString(2),
         flags2Binary: flags2.toString(2)
       },
-      timestamp: new Date().toISOString()
+      timestamp: berlinTimestamp()
     };
   }
 
